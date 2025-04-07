@@ -1,0 +1,9 @@
+.modal_todo_list_closed{
+    display: none;
+}
+
+.modal_todo_list_opened {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+}
