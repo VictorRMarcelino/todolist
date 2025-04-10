@@ -4,6 +4,40 @@
 
 .modal_todo_list_opened {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     z-index: 1;
     position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 75vw;
+    height: 50vh;
+}
+
+.modal_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.modal_header_title{
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+.modal_header_options{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.modal_footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
 }

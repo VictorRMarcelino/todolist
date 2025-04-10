@@ -10,31 +10,44 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/todolist.js"></script>
     <script src="../js/modal.js"></script>
+    <script src="../js/ajax.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main class="todolist">
-        <div class="todolist_header"></div>
+    <main class="container todolist">
+        <div class="todolist_header">
+            <h2>TODO List</h2>
+        </div>
         <div class="todolist_content">
-            <table>
+            <table class="table todolist_content_table">
                 <thead>
                     <tr>
-                        <td>ID</td>
+                        <td scope="col">ID</td>
+                        <td scope="col">Description</td>
+                        <td scope="col">Status</td>
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody>
+                </tbody>
             </table>
         </div>
         <div class="todolist_footer">
-            <button class="btn btn-primary" onclick="todolist.openModalAddItem()">Add Item</button>
+            <button class="btn btn-primary" onclick="Todolist.openModalAddItem()">Add Item</button>
         </div>
     </main>
     <div class="modal_todo_list_closed modal_add_item" id="modal_add_item" name="modal_add_item">
-        <div class="modal_add_item_header"></div>
-        <div class="modal_add_item_content"></div>
-        <div class="modal_add_item_footer">
-            <button>Confirm</button>
-            <button>Clean</button>
+        <div class="modal_header">
+            <div class="modal_header_title">
+                <h2>Add Item</h2>
+            </div>
+            <div class="modal_header_options">
+                <button class="btn btn-danger" onclick="Todolist.closeModalAddItem()">X</button>
+            </div>
+        </div>
+        <div class="modal_content"></div>
+        <div class="modal_footer">
+            <button class="btn btn-primary" onclick="Todolist.onConfirmAddItem()">Confirm</button>
+            <button class="btn btn-secondary">Clean</button>
         </div>
     </div>
 </body>
