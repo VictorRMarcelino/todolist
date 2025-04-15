@@ -34,6 +34,12 @@
     align-items: center;
 }
 
+.modal_content{
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+}
+
 .modal_footer{
     display: flex;
     justify-content: start;

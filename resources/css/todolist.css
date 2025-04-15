@@ -58,3 +58,7 @@ html, body{
     width: 20vw;
     height: 25vh;
 }
+
+.modal_add_item_table td{
+    display: table-cell;
+}
