@@ -52,6 +52,6 @@ class Router {
      * Load the page when a route don't exist 
      */
     protected function loadRouteError404() {
-        include_once $_SERVER['DOCUMENT_ROOT'] . "/resources/views/ViewPageNotFound.php";
+        include_once $_SERVER['DOCUMENT_ROOT'] . "/resources/views/ViewPageNotFound.html";
     }
 }

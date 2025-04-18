@@ -15,6 +15,6 @@ class ControllerUser {
      * Return the file of the view to register a new user
      */
     public function getViewRegister() {
-        include_once $_SERVER['DOCUMENT_ROOT'] . "/resources/views/ViewRegister.php";
+        include_once $_SERVER['DOCUMENT_ROOT'] . "/resources/views/ViewRegister.html";
     }
 }
