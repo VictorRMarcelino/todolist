@@ -1,0 +1,16 @@
+{
+    "name": "todolist/todolist",
+    "description": "Todolist App",
+    "authors": [
+        {
+            "name": "Victor Ramos",
+            "email": "httpsvictorramos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "routes\\": "routes/"
+        }
+    }
+}

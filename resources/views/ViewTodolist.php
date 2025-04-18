@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todolist</title>
-    <link rel="stylesheet" href="../css/todolist.css">
-    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../resources/css/todolist.css">
+    <link rel="stylesheet" href="../resources/css/modal.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="../js/jquery.js"></script>
-    <script src="../js/todolist.js"></script>
-    <script src="../js/modal.js"></script>
+    <script src="../resources/js/jquery.js"></script>
+    <script src="../resources/js/todolist.js"></script>
+    <script src="../resources/js/modal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
