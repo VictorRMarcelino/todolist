@@ -1,1 +1,6 @@
 Dockerfile
+docker-composer.yml
+vendor/
+composer.lock
+.gitignore
+.env
